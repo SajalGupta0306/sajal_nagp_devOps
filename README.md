@@ -3,7 +3,7 @@ Project Description:
 2. hello-app: This folder contains all the yaml files which are needed for the assignment.
 
 Code Repo Link:
-
+https://github.com/SajalGupta0306/sajal_nagp_devOps
 
 Docker Hub URL
 https://hub.docker.com/repository/docker/sajalgupta/db-app/tags
@@ -18,7 +18,6 @@ I have also created 2 dummy urls to ensure that external cluster IP is connectin
 2. http://35.227.177.27:32080/ready
 
 Screen Recording Link:
-
 
 
 
