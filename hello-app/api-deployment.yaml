@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-deployment
+  namespace: default
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: k8-db-app
+  template:
+    metadata:
+      labels:
+        app: k8-db-app
+    spec:
+      containers:
+      - name: k8-db-app
+        image: us-west1-docker.pkg.dev/brave-aileron-424014-u9/db-repo/db-app:v2
+        ports:
+        - containerPort: 8080
+        env:
+        - name: DB_HOST
+          value: postgres.default.svc.cluster.local
+        - name: DB_PORT
+          value: "5432"
+        - name: DB_NAME
+          value: mydatabase
+        - name: DB_USER
+          value: postgres
+        - name: DB_PASS
+          value: securepass
+        resources:
+          requests:
+            cpu: "50m"
+          limits:
+            cpu: "200m"
+
