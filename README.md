@@ -18,6 +18,7 @@ I have also created 2 dummy urls to ensure that external cluster IP is connectin
 2. http://35.227.177.27:32080/ready
 
 Screen Recording Link:
+https://nagarro-my.sharepoint.com/:v:/p/sajal_gupta02/Efn_mw9nMKpLrG4gh1cOxgkBxQUkQHQw5E9EcBSSinoZ6A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3TOXJa
 
 
 
